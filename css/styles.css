@@ -101,7 +101,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--footer-logo-color);
+    color: #32CD32;
     margin-right: 76px;
     padding: 24px 0;;
 }
@@ -136,14 +136,14 @@ ol {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing:0.32px;
-    color: var(--title-text-color);
+    color: #32CD32;
     padding: 24px 0;
     display: block;
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: var(--accent-color);
+    color: #434455;
 }
 
 /*  header-address  */
@@ -189,7 +189,7 @@ color: var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color:var(--accent-color);
+    background-color:  #32CD32;
     color: var(--primary-bg-color);
 }
 
@@ -222,7 +222,9 @@ color: var(--accent-color);
 /* main */
 
 .solvable {
-    background-color: var(--title-text-color);
+    background-color:  #32CD32;
+    background-image: url(./images/home);
+    background-repeat: n;
 }
 
 /* solvable */
@@ -239,7 +241,6 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color:var(--primary-bg-color);
     max-width: 496px;
-
     margin-left :auto;
     margin-right :auto;
 }
@@ -260,7 +261,7 @@ color: var(--accent-color);
     letter-spacing: 0.04em;
     margin: 48px auto 0;
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color:  #32CD32;
     color: #ffffff;
     min-width: 169px;
     height: 56px;
@@ -378,7 +379,7 @@ color: var(--primary-text-color);
 
 .sectio.team {
     padding: 120px 0;
-    background-color: #F4F4FD;
+    background-color: #98FB98;
     }
 
 .compoid.team {
@@ -468,7 +469,7 @@ color: var(--primary-text-color);
 
 .header-buttion.secondary:hover,
 .header-buttion.secondary:focus {
-    background: var(--accent-color);
+    background: #32CD32;
     color:var(--primary-bg-color);
     border: 1px solid transparent;
 }
@@ -482,7 +483,7 @@ color: var(--primary-text-color);
     letter-spacing: 0.04em;
     cursor: pointer;
     background: var(--sectoin-bg-color);
-    color: var(--footer-logo-color);
+    color: #32CD32;
     padding: 12px 24px 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
@@ -530,7 +531,7 @@ color: var(--primary-text-color);
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px; 
-    color: var(--title-text-color);
+    color: #32CD32;
 }
 
 .botton-row {
@@ -543,7 +544,7 @@ color: var(--primary-text-color);
 /* Footer */
 
 .footer {
-    background: var(--title-text-color);
+    background:  #32CD32;
     padding: 100px 0;
 }
 
@@ -556,7 +557,7 @@ color: var(--primary-text-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--footer-logo-color);
+    color: var(--sectoin-bg-color);
     margin-bottom: 16px;
     /* border: 1px solid black; */
 }
