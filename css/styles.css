@@ -236,14 +236,15 @@ color: var(--accent-color);
 
 .solvable {
     background-color: #6B8E23;
-    background-image: url(./images/home);
-    background-repeat: n;
+    background-image: url(../images/home.JPG);
+    background-repeat: no-repeat;
 }
 
 /* solvable */
 
 .solvable {
     padding: 188px 0;
+    max-width: 100%;
 }
 
 .solvable-title {
@@ -254,46 +255,12 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color:var(--primary-bg-color);
     max-width: 496px;
-    margin-left :auto;
+    margin-left : 1250px;
     margin-right :auto;
 }
 
 
-.hero-buttion.solnable:hover,
-.hero-buttion.solnable:focus {
-    background-color: var(--accent-color);
-    color:var(--primary-bg-color);
-}
 
-.hero-buttion.solnable {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    margin: 48px auto 0;
-    cursor: pointer;
-    background-color: #6B8E23;
-    color: #ffffff;
-    min-width: 169px;
-    height: 56px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    display: block;
-} 
-
-.first-title {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--title-text-color);
-}
 
 .about {
 font-weight: 400;
@@ -392,7 +359,7 @@ color: var(--primary-text-color);
 
 .sectio.team {
     padding: 120px 0;
-    background-color: #98FB98;
+    background-color: #A9A9A9;
     }
 
 .compoid.team {
