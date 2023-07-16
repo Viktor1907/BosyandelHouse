@@ -238,6 +238,7 @@ color: var(--accent-color);
     background-color: #6B8E23;
     background-image: url(../images/home.JPG);
     background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 /* solvable */
